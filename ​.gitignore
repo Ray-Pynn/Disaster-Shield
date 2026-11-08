@@ -1,0 +1,47 @@
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# SQLite runtime database
+*.db
+*.sqlite
+*.sqlite3
+*-journal
+
+# Node dependencies & Vite build artifacts
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE configs & Operating System metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
